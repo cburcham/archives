@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Chapter 2, Example 1</title>
+        
+        <link rel="stylesheet" type="text/css" href="primary.css" />
+    </head>
+
+	<body>
+		<div id="page">
+		<h1 align="left">Operators, Variables and Functions...</h1>
+		<h1 align="right">...Oh My!</h1>
+			
+		<hr />
+		
+		<h2 id="Greet"></h2>
+		
+		<h2>Operators and Variables</h2>
+		<form name="frmExpressions" id="frmExpressions" enctype="text/plain">
+			<h3>Working with Numbers</h3>
+			<p>var myFirstNum = 23;</p>
+			<p>var mySecondNum = 5;</p>
+			
+			<p>var myFirstResult = myFirstNum + mySecondNum / 2 = 
+			<span id="spnFirstResult"></span></p>
+		
+			<p>var mySecondResult =   (myFirstNum + mySecondNum) / 2 = 
+			<span id="spnSecondResult"></span></p>
+			
+			<p>var myThirdResult = myFirstNum % mySecondNum = 
+			<span id="spnThirdResult"></span></p>
+			
+			<p>var myFourthResult = myFirstNum + myFirstNum % mySecondNum = 
+			<span id="spnFourthResult"></span></p>
+			
+			<p>myFourthResult *= 2 =
+			<span id="spnFourthResult2"></span></p>
+			
+			<h3>Working with Text</h3>
+			<p>var myFirstString = &quot;Some text stored in a variable?&quot;;</p>
+			<p>var mySecondString = &quot;Yee haw!&quot;;</p>
+			
+			<p>var myFifthResult = myFirstString + mySecondString = 
+			<span id="spnFifthResult"></span></p>
+			
+			<p>var mySixthResult = myFirstString + &quot; &quot; + mySecondString = 
+			<span id="spnSixthResult"></span></p>
+			
+			<h3>Working with Logic</h3>
+			<p>var myCity = &quot;Springfield&quot;;</p>
+			<p>var myZip = 97000;</p>
+			<p>var myCars = 3;</p>
+			
+			<p>var mySeventhResult = (myCity ==&quot;Springfield&quot; &amp;&amp; myCars &gt; 2) = 
+			<span id="spnSeventhResult"></span></p>
+			
+			<p>var myEighthResult = (myCity = &quot;Bend&quot;) = 
+			<span id="spnEighthResult"></span></p>
+			
+			<p>var myNinthResult = (myCars &gt; 3 || myZip &lt; 95000) = 
+			<span id="spnNinthResult"></span></p>
+			
+			<p>var myTenthResult = (myZip &gt;= 97000 || myCars == 0) &amp;&amp; !(myCity == &quot;Springfield&quot;) = 
+			<span id="spnTenthResult"></span></p>
+		
+		</form>
+		
+		<h2>Re-Usable Functions</h2>
+		
+		<form name="frmNumbers" id="frmNumbers" enctype="text/plain">
+			
+			  <h3>Calculate the area</h3>
+						  
+			  <label for="txtLength" class="blocklabel">
+				 Width:
+				 <input type="text" name="txtLength" id="txtLength" />   
+			  </label>
+			  
+			  <label for="txtWidth" class="blocklabel">
+				 Length:
+				 <input type="text" name="txtWidth" id="txtWidth" />   
+			  </label>
+			  
+			  <input type="button" name="btnArea" id="btnArea" value="The area is..."  />
+			  
+			  <h3>Calculate the distance</h3>
+			  <label for="txtSpeed" class="blocklabel">
+				 Speed (in mph):
+				 <input type="text" name="txtSpeed" id="txtSpeed" />   
+			  </label>
+			  
+			  <label for="txtTime" class="blocklabel">
+				 Time (in hours):
+				 <input type="text" name="txtTime" id="txtTime" />   
+			  </label>
+			  
+			  <input type="button" name="btnDist" id="btnDist" value="The distance is..."  />
+			  
+			  <h3>Calculate the Cost</h3>
+				<label for="txtPrice" class="blocklabel">
+				 Price per item:
+				 <input type="text" name="txtPrice" id="txtPrice" />   
+			  </label>
+			  
+			  <label for="txtQuantity" class="blocklabel">
+				 Quantity:
+				 <input type="text" name="txtQuantity" id="txtQuantity" />   
+			  </label>
+			  
+			  <input type="button" name="btnPrice" id="btnPrice" value="The cost is..."  />
+		  </form>  
+			
+			
+		</div> 
+
+		<script language="javascript" type="text/javascript" src="chap02ex01code.js"></script>
+	</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Arimo|Oswald&display=swap" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+
+		<title>CS-133S Lab 2 Burcham</title>
+	</head>
+	<body class="container">
+		<h1>Nintendo Products</h1>
+
+		<form>
+			<div class="row">
+				<div class="col-2">Image</div>
+				<div class="col-6">Game / Description</div>
+				<div class="col-2">Price</div>
+				<div class="col-2">Quantity</div>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<img src="images/shield_boxart.png" alt="Pokemon Shield Box Art">
+				</div>
+				<div class="col-6">
+					<h2>Pok&eacute;mon Shield</h2>
+					<p>
+						Pokémon Sword and Pokémon Shield are the primary paired versions of Generation VIII. The games were released on the Nintendo Switch worldwide on November 15, 2019 for both retail sale and download. All copies of the game are playable in nine languages: Japanese, English, German, Spanish, French, Italian, Korean, Simplified and Traditional Chinese.
+						<br>
+						<a href="https://www.wikipedia.com">Source: Wikipedia</a>
+					</p>
+				</div>
+				<div class="col-2">
+					$59.99
+					<br>
+					<span id="spnNum1" class="text-muted"></span>
+				</div>
+				<div class="form-group col-2">
+					<input type="number" min="0" max="999" class="form-control" id="num1" name="num1" value="0">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<img src="images/sword_boxart.png" alt="Pokemon Sword Box Art">
+				</div>
+				<div class="col-6">
+					<h2>Pok&eacute;mon Sword</h2>
+					<p>
+						Pokémon Sword and Pokémon Shield are the primary paired versions of Generation VIII. The games were released on the Nintendo Switch worldwide on November 15, 2019 for both retail sale and download. All copies of the game are playable in nine languages: Japanese, English, German, Spanish, French, Italian, Korean, Simplified and Traditional Chinese.
+						<br>
+						<a href="https://www.wikipedia.com">Source: Wikipedia</a>
+					</p>
+				</div>
+				<div class="col-2">
+					$59.99
+					<br>
+					<span id="spnNum2" class="text-muted"></span>
+				</div>
+				<div class="form-group col-2">
+					<input type="number" min="0" max="999" class="form-control" id="num2" name="num2" value="0">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<img src="images/switch.png" alt="Nintendo Switch">
+				</div>
+				<div class="col-6">
+					<h2>Nintendo Switch</h2>
+					<p>
+						The Nintendo Switch's software supports online gaming through Internet connectivity, as well as local wireless ad hoc connectivity with other consoles. Nintendo Switch games and software are available on both physical flash-based ROM cartridges and digital distribution via Nintendo eShop; the system has no region lockout. As an eighth-generation console, the Nintendo Switch competes with Microsoft's Xbox One and Sony's PlayStation 4.
+						<br>
+						<a href="https://www.wikipedia.com">Source: Wikipedia</a>
+					</p>
+				</div>
+				<div class="col-2">
+					$299.99
+					<br>
+					<span id="spnNum3" class="text-muted"></span>
+				</div>
+				<div class="form-group col-2">
+					<input type="number" min="0" max="999" class="form-control" id="num3" name="num3" value="0">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-6"></div>
+				<div class="col-2">
+					Products Total: $<span id="spnProduct">0</span>
+					<br>
+					Sales Tax Total: $<span id="spnTax">0</span>
+					<br>
+					Total: $<span id="spnTotal">0</span>
+				</div>
+				<div class="col-2">
+					<input class="btn btn-lg btn-block btn-success" type="button" name="btnBuy" id="btnBuy" value="Buy Now">
+				</div>
+			</div>
+		</form>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

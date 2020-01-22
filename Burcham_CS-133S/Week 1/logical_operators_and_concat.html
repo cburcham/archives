@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            // Good use of concatanation
+			// Good use of the OR logical operator
+			for (let num = 1; num <= 100; num++) {
+				let string = "";
+				if (num % 3 == 0) string += "Fizz";
+				if (num % 5 == 0) string += "Buzz";
+				console.log(string || num);
+			}
+        </script>
+    </body>
+</html>

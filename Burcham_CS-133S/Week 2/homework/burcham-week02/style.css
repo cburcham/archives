@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    height: auto;
+    max-height: 300px;
+    max-width: 130px;
+    width: auto;
+}
+
+.row {
+    border-bottom: 2px solid rgba(0,0,0,.25);
+    font-size: 90%;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+.row:last-of-type {
+    border: none;
+}
+
+.row div:first-of-type, .row div:last-of-type {
+    text-align: center;
+}
+
+input[type="number"] {
+    text-align: center;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
