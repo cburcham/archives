@@ -1,0 +1,19 @@
+h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+label {
+    font-weight: 700;
+}
+
+#spnExDollar,
+#spnExEuro,
+#spnExYen {
+    background-color: yellow;
+    border-radius: 1em;
+    color: black;
+    display: inline-block;
+    margin-top: .5em;
+    padding: .5em;
+}
