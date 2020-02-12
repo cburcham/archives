@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+h1, label, input[type=button] {
+    font-weight: 700;
+}
+
+#spnTempF,
+#spnTempC {
+    background-color: yellow;
+    border-radius: 1em;
+    color: black;
+    display: inline-block;
+    margin-top: .5em;
+    padding: .5em;
+}
+
+#spnTempF,
+#spnTempC,
+#spnMsg {
+    display: none;
+}

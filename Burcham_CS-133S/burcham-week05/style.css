@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+h1, label, input[type=button] {
+    font-weight: 700;
+}
+
+span {
+    background-color: yellow;
+    border-radius: 1em;
+    color: black;
+    display: none;
+    margin-top: .5em;
+    padding: .5em;
+}
